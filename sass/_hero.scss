@@ -1,0 +1,86 @@
+.hero {
+    
+    .container {
+
+        @media (min-width:64em) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            column-gap: 5rem;
+        }
+
+    }
+
+
+    &__image {
+
+        .hero-image {
+            height: 18rem;
+
+            @media (min-width:40em){
+                height: 28em;
+            }
+
+            @media (min-width:64em) {
+                height: 38em;
+            }
+            
+        }
+
+        @media (min-width:64em) {
+            flex: 1;
+            order: 2;
+        }
+    }
+
+    &__content {
+
+        text-align: center;
+        line-height: 1.2;
+
+        @media (min-width:64em) {
+            flex: 1;
+            order: 1;
+            text-align: left !important;
+        }
+
+        @media (min-width: 30em) {
+            max-width: 600px;
+            text-align: center;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 1.8em;
+            padding: 0.5rem 0 0 0;
+            color: black;
+
+            @media (min-width:64em) {
+                font-size: 3em;
+                order: 1;
+            }
+        }
+
+
+        p {
+
+            padding: 0.5rem 0;
+            color: #a09d9d;
+            line-height: 1.6;
+
+            @media (min-width:64em) {
+                font-size: 1.2em;
+            }
+        }
+
+        .button {
+            padding: 1rem 0 6rem 0;
+        }
+    }
+
+}
+
+//about section starts here
+
+
+

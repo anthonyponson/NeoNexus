@@ -1,0 +1,85 @@
+.service {
+
+    padding-top: 150px;
+
+    &__intro {
+
+        h1 {
+            text-align: center;
+            padding: 0.5rem 0 1rem 0;
+            font-size: 1.8em;
+            line-height: 1.2;
+            font-weight: 700;
+            color: #444CF7;
+            letter-spacing: 2px;
+
+            @media (min-width: 64em) {
+                text-align: left;
+            }
+
+        }
+
+        h3 {
+            font-size: 1.2em;
+            text-align: center;
+            color: #777;
+
+            @media (min-width: 64em) {
+                text-align: left;
+            }
+        }
+
+    }
+
+
+
+
+    &__grid {
+
+        @media (min-width:40em) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+    }
+
+    &__item {
+        text-align: center;
+        margin: 1rem auto;
+        padding: 1rem 1rem;
+        border-radius: 20px;
+        transition: all ease-in-out 0.3s;
+
+        @media (min-width:40em) {
+            flex: 0 0 40%;
+            text-align: left;
+        }
+
+        @media (min-width:64em) {
+            flex: 1;
+            margin: 0 0.5rem;
+        }
+
+        &:hover {
+            box-shadow: 2px 4px 17px rgba(0, 0, 0, 0.321);
+        }
+    }
+
+
+    &__title {
+        margin: 1rem 0;
+        font-size: 1rem;
+        font-weight: 600;
+
+    }
+
+    &__description {
+
+        font-size: 1rem;
+        font-weight: 600;
+        color: #a09d9d;
+        margin-bottom: 1rem;
+    }
+
+}
+

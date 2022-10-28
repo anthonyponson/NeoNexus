@@ -1,0 +1,129 @@
+
+html{
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body{
+  line-height: 1.3;
+  font-family: 'Nunito Sans', sans-serif;
+  
+  &.noscroll{
+      overflow: hidden;
+  }
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+li{
+  list-style: none;
+}
+
+a, a:visited, a:hover{
+  text-decoration: none;
+}
+
+
+// buttons
+.btn-primary{
+    padding: 1rem 1.5rem;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    // box-shadow: 2px 4px 31px 5px rgba(0,0,0,0.3);
+    box-shadow: rgba(0, 0, 0, 0.375) 0px 4px 42px;
+    font-size: 1em;
+    font-weight: 600;
+    background:#444CF7;
+    color: #fff;
+}
+
+
+// Breakpints
+
+// Hide for mobile and tablet devices
+  .hide-for-mobile {
+    @media(max-width:63.99em){
+      display: none;;
+    }
+  }
+
+  //Hide for desktop devices
+  .hide-for-desktop{
+    @media(min-width:1024px){
+        display: none;
+  }
+}
+
+.container-fluid{
+  max-width: 85em;
+  margin: 0 auto;
+}
+
+
+.container{
+  max-width: 85em;
+  margin: 0 auto;
+
+  &--pall{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  &--pv{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  &--ph{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  &--pt{
+    padding-top: 2rem;
+  }
+
+  &--pb{
+    padding-bottom: 2rem;
+  }
+
+  &--pl{
+    padding-left: 2rem;
+  }
+
+  &--pr{
+    padding-right: 2rem;
+  }
+
+  &--xpt{
+    padding-top: 5rem;
+  }
+
+  &--xpb{
+    padding-bottom: 5rem;
+  }
+
+}
+
+
+.image-center{
+  display: block;
+  margin: 0 auto;
+}
+
+.image-responsive{
+  height: auto;
+  max-width: 100%;
+}
+
