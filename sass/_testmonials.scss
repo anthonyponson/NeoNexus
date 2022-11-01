@@ -1,5 +1,7 @@
 .testmonials {
 
+    padding-bottom: 20px;
+    
     &__heading {
         text-align: center;
         padding-bottom: 50px;
@@ -57,7 +59,7 @@
     }
 
     &__detail {
-        padding: 0 30px;
+        padding :40px 0;
         text-align: center;
         color: #777;
         max-width: 500px;
@@ -85,3 +87,40 @@
 
 
 }
+
+.contact{
+
+    &__heading{
+            text-align: center;
+            padding-bottom: 50px;
+    }
+
+    &__form{
+        max-width: 400px;
+        margin: 0 auto;
+
+    }
+
+    &__input{
+        height: 100%;
+        margin: 1rem 0;
+        padding: 1rem;
+        width: 100%;
+        font-size: 0.7rem;
+        font-weight: 600;
+        border-radius: 20px;
+        border: 2px solid #444CF7;
+        outline: none;
+    }
+
+    &__button{
+        display: block;
+        margin: 0 auto;
+        margin-top: 0.7rem;
+    }
+
+
+
+}
+
+
