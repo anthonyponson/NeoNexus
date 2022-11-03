@@ -16,6 +16,9 @@ body {
   padding: 0;
   margin: 0; }
 
+* {
+  transition: all 1s ease-in-out; }
+
 li {
   list-style: none; }
 
@@ -243,7 +246,7 @@ a, a:visited, a:hover {
     @media (min-width: 64em) {
       .hero__content p {
         font-size: 1.2em; } }
-  .hero__content .button {
+  .hero__content .hero-button {
     padding: 1rem 0 6rem 0; }
 
 .about {
@@ -300,7 +303,8 @@ a, a:visited, a:hover {
         text-align: left; } }
 
 .service {
-  padding-top: 150px; }
+  padding-top: 100px;
+  padding-bottom: 100px; }
   .service__intro h1 {
     text-align: center;
     padding: 0.5rem 0 1rem 0;
@@ -499,26 +503,33 @@ a, a:visited, a:hover {
     .testmonials__detail h2 {
       font-size: 1.1rem; }
 
-.contact__heading {
-  text-align: center;
-  padding-bottom: 50px; }
-
-.contact__form {
-  max-width: 400px;
-  margin: 0 auto; }
-
-.contact__input {
-  height: 100%;
-  margin: 1rem 0;
-  padding: 1rem;
-  width: 100%;
-  font-size: 0.7rem;
-  font-weight: 600;
-  border-radius: 20px;
-  border: 2px solid #444CF7;
-  outline: none; }
-
-.contact__button {
-  display: block;
-  margin: 0 auto;
-  margin-top: 0.7rem; }
+.contact {
+  background-color: rgba(239, 239, 239, 0.321); }
+  .contact__heading {
+    text-align: center;
+    padding-bottom: 50px; }
+    .contact__heading h3 {
+      color: #777; }
+    .contact__heading h1 {
+      color: #444CF7; }
+  .contact__form {
+    max-width: 400px;
+    margin: 0 auto; }
+    @media (min-width: 50em) {
+      .contact__form {
+        max-width: 700px; } }
+  .contact__input {
+    height: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 100%;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 2px solid #444CF7;
+    outline: none;
+    background-color: #fff; }
+  .contact__button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.7rem; }

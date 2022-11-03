@@ -49,3 +49,49 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+// Scroll Reveal Animation
+
+const sr = ScrollReveal({
+  origin:'top',
+  distance:'60px',
+  duration: '1000',
+  reset: 'true'
+
+})
+
+//home
+
+ScrollReveal().reveal('.hero__content',{});
+ScrollReveal().reveal('.hero-image',{});
+
+ScrollReveal().reveal('.about-image',{});
+ScrollReveal().reveal('.about__content',{});
+
+
+ScrollReveal().reveal('.service__item',{ delay : 600});
+ScrollReveal().reveal('.service__intro',{});
+
+
+ScrollReveal().reveal('.work__heading',{});
+
+ScrollReveal().reveal('.work__bg1',{ delay: 200});
+ScrollReveal().reveal('.work__bg2',{ delay: 200});
+ScrollReveal().reveal('.work__bg3',{ delay: 200});
+
+ScrollReveal().reveal('.work__bg4',{ delay: 400});
+ScrollReveal().reveal('.work__bg5',{ delay: 400});
+ScrollReveal().reveal('.work__bg6',{ delay: 400});
+
+ScrollReveal().reveal('.work__bg7',{ delay: 600});
+ScrollReveal().reveal('.work__bg8',{ delay: 600});
+
+
+ScrollReveal().reveal('.testmonials__heading',{});
+ScrollReveal().reveal('.swiper-slide',{delay:300});
+
+ScrollReveal().reveal('.contact__heading',{});
+ScrollReveal().reveal('.contact__form',{delay:400});
+ScrollReveal().reveal('.contact__button',{delay:600});
+
+
