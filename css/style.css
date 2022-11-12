@@ -189,7 +189,7 @@ a, a:visited, a:hover {
     right: 0;
     height: 5px;
     bottom: -10px;
-    background: linear-gradient(to right, #FF416C, #FF4B2B);
+    background: linear-gradient(to right, #444CF7, #0814ff);
     opacity: 0;
     transition: opacity 300ms ease-in-out; }
   .header__nav-link:hover {
@@ -233,21 +233,21 @@ a, a:visited, a:hover {
       margin: auto; } }
   .hero__content h1 {
     font-size: 1.8em;
-    padding: 0.5rem 0 0 0;
-    color: black; }
+    color: black;
+    padding-bottom: 0.7rem; }
     @media (min-width: 64em) {
       .hero__content h1 {
         font-size: 3em;
         order: 1; } }
   .hero__content p {
-    padding: 0.5rem 0;
+    padding-bottom: 0.5rem;
     color: #a09d9d;
     line-height: 1.6; }
     @media (min-width: 64em) {
       .hero__content p {
         font-size: 1.2em; } }
   .hero__content .hero-button {
-    padding: 1rem 0 6rem 0; }
+    padding: 1.5rem 0 6rem 0; }
 
 .about {
   background-color: rgba(237, 237, 237, 0.429);

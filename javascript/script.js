@@ -36,7 +36,7 @@ const fadeElems = document.querySelectorAll('.has-fade');
 
 // swipper js
 
-var swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
@@ -65,16 +65,19 @@ const sr = ScrollReveal({
 ScrollReveal().reveal('.hero__content',{});
 ScrollReveal().reveal('.hero-image',{});
 
+//about
+
 ScrollReveal().reveal('.about-image',{});
 ScrollReveal().reveal('.about__content',{});
 
+//service 
 
 ScrollReveal().reveal('.service__item',{ delay : 600});
 ScrollReveal().reveal('.service__intro',{});
 
+//work
 
 ScrollReveal().reveal('.work__heading',{});
-
 ScrollReveal().reveal('.work__bg1',{ delay: 200});
 ScrollReveal().reveal('.work__bg2',{ delay: 200});
 ScrollReveal().reveal('.work__bg3',{ delay: 200});
@@ -87,11 +90,16 @@ ScrollReveal().reveal('.work__bg7',{ delay: 600});
 ScrollReveal().reveal('.work__bg8',{ delay: 600});
 
 
+//testmonial
+
 ScrollReveal().reveal('.testmonials__heading',{});
 ScrollReveal().reveal('.swiper-slide',{delay:300});
+
+//contact
 
 ScrollReveal().reveal('.contact__heading',{});
 ScrollReveal().reveal('.contact__form',{delay:400});
 ScrollReveal().reveal('.contact__button',{delay:600});
+
 
 
