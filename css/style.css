@@ -126,6 +126,7 @@ a, a:visited, a:hover {
 
 .header .overlay {
   opacity: 0;
+  z-index: -1;
   position: fixed;
   top: 0;
   right: 0;
@@ -158,6 +159,7 @@ a, a:visited, a:hover {
 
 .header__menu {
   position: absolute;
+  z-index: 1;
   width: calc(100% - 3rem);
   left: 50%;
   transform: translateX(-50%);

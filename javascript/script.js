@@ -93,7 +93,7 @@ ScrollReveal().reveal('.work__bg8',{ delay: 600});
 //testmonial
 
 ScrollReveal().reveal('.testmonials__heading',{});
-ScrollReveal().reveal('.swiper-slide',{delay:300});
+ScrollReveal().reveal('.testmonials__testmonial',{delay:300});
 
 //contact
 
